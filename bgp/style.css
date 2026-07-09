@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*　共通スタイル */
+div {
+    /* 表示領域 */
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 1em 0;
+    /* 文字 */
+    color: tomato;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 背景画像 */
+    background-image: url("cat.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* center bottom: 水平：中央／垂直：下に配置 */
+.center {
+    background-position: center bottom;
+}
+
+/* right top: 右上に配置 */
+.right-top {
+    background-position: right top;
+}
+
+/* px：任意の座標に配置（横方向 縦方向） */
+.px {
+    background-position: 20px 40px;
+}

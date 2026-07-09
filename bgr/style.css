@@ -1,0 +1,38 @@
+/* 共通スタイル */
+div {
+    /* 表示領域 */
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 1em 0;
+    /* 文字 */
+    color: #555;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 背景画像 */
+    background-image: url("pattern.jpg");
+    background-repeat: no-repeat;
+}
+
+/*repeat- 繰り返し (縦・横)*/
+.repeat {
+    background-repeat: repeat;
+}
+
+/* no-repeat: 繰り返さない */
+.no-repeat {
+    background-repeat: no-repeat;
+}
+
+/* repeat: 繰り返し（横） */
+.repeat-x {
+    background-repeat: repeat-x;
+}
+
+/* repeat: 繰り返し（縦） */
+.repeat-y {
+    background-repeat: repeat-y;
+}

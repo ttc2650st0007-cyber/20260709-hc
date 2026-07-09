@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+h1 {
+    background: #a661de;
+    width: 500px;
+    padding: 40px;
+    border: 8px solid #1bad70;
+    margin: 0;
+}
+div {
+    background: #00ddff;
+    width: 50%;
+    height: 200px;
+    padding: 100px;
+    border: 10px double #000;
+    margin: 100px;
+}
