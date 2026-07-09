@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+h1 {
+    background: #ba36af;
+    background: radial-gradient(circle, rgba(186, 54, 175, 1) 0%, rgba(122, 37, 54, 1) 100%);
+}
+
+
+
+h2 {
+    background: #020024;
+    background: linear-gradient(90deg, rgb(209, 118, 245) 0%, rgba(71, 71, 204, 1) 35%, rgba(168, 241, 255, 1) 100%);
+    ;
+}
+
+h3 {
+    textsize: 50px;
+    background-image: url("caption.jpg");
+    height: 100px;
+}
